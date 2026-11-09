@@ -1,0 +1,39 @@
+First 5 Records
+   Id  SepalLengthCm  SepalWidthCm  PetalLengthCm  PetalWidthCm        Species
+0   1      5.1             3.5            1.4           0.2      Iris-setosa
+1   2      4.9             3.0            1.4           0.2      Iris-setosa
+2   3      4.7             3.2            1.3           0.2      Iris-setosa
+3   4      4.6             3.1            1.5           0.2      Iris-setosa
+4   5      5.0             3.6            1.4           0.2      Iris-setosa
+Dataset Information
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 150 entries, 0 to 149
+Data columns (total 6 columns):
+Id
+SepalLengthCm
+SepalWidthCm
+PetalLengthCm
+PetalWidthCm
+Species
+Missing Values
+Id               0
+SepalLengthCm    0
+SepalWidthCm     0
+PetalLengthCm    0
+PetalWidthCm     0
+Species          0
+dtype: int64
+Encoded Species
+   SepalLengthCm  SepalWidthCm  PetalLengthCm  PetalWidthCm  Species
+0           5.1            3.5            1.4           0.2        0
+1           4.9            3.0            1.4           0.2        0
+2           4.7            3.2            1.3           0.2        0
+3           4.6            3.1            1.5           0.2        0
+4           5.0            3.6            1.4           0.2        0
+Preprocessed Dataset (First 5 Rows)
+   SepalLengthCm  SepalWidthCm  PetalLengthCm  PetalWidthCm  Species
+0      -0.9007        1.0190        -1.3402       -1.3154         0
+1      -1.1430       -0.1319       -1.3402       -1.3154         0
+2      -1.3854        0.3284       -1.3971       -1.3154         0
+3      -1.5065        0.0982       -1.2834       -1.3154         0
+4      -1.0218        1.2492       -1.3402       -1.3154         0
